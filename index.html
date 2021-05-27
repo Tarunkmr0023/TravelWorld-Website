@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>TravelWorld</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<!-- Jquery CDN Link -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+	<style>
+		*{
+			font-family: 'Josefin Sans', sans-serif;
+		}
+		section{
+			width: 90%;
+			margin: auto;
+			margin-top: 120px;
+		}
+		body
+		{
+			background-color: #e6faf8;
+		}
+	</style>
+</head>
+<body>
+	<nav class="blue lighten">
+		<div class="nav-wrapper container">
+			<a href="#!" class="brand-logo">TravelWorld</a>
+			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#gallery" class="scrollspy"></a>Gallery</li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<a class="waves-effect waves-light btn modal-trigger" href="#modal1">Sign Up</a>
+			</ul>
+		</div>
+	</nav>
+
+	<ul class="sidenav" id="mobile-demo">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="#">Services</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="#">Contact</a></li>
+		<a class="waves-effect waves-light btn modal-trigger" href="#modal1">Sign Up</a>
+	</ul>
+	<!-- Home Slider -->
+	<div class="carousel carousel-slider">
+		<div class="carousel-fixed-item center white-text">
+			<h2>Travel aroung all over the world</h2>
+			<p>Best Travel Agent in Delhi</p>
+			<a class="waves-effect waves-light btn" href="about.html" target="blank">MORE INFO<i class="material-icons right">send</i></a>
+		</div>
+		<a class="carousel-item" href="#one!"><img src="images/bg1.jpg"></a>
+		<a class="carousel-item" href="#two!"><img src="images/bg2.jpg"></a>
+		<a class="carousel-item" href="#three!"><img src="images/bg3.jpg"></a>
+		<a class="carousel-item" href="#four!"><img src="images/bg4.jpg"></a>
+	</div>
+
+	<!-- About us -->
+	<section>
+		<h2 class="center-align blue-text">About US</h2>
+		<div class="row">
+			<div class="col s4 m4 l4 offset-l4 offset-s4 offset-m4" ><hr></div>
+		</div>
+
+		<div class="row">
+			<div class="col s12 m6 l6">
+				<img src="images/bg5.jpg" class="responsive-img hoverable">
+			</div>
+			<div class="col s12 m4 l6">
+				<h4>Who are We?</h4>
+				<p>We are leading Tour and Travel agent in Delhi, providing service to people from more than 30 years. We have diffrent <b>Tour Packages</b> in very reasonable price. We have all types of Tour Packages ranging from low class to high class. We have all types of packages for all over the India. We have tour package of all places all over india. Our service is our priority.</p>
+				<h4>The world is a book and those who do not travel read only one page.</h4>
+				<a href="about.html" class="btn waves-effect waves-light blue white-text" target="_blank">Know More</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Our services-->
+	<section id="services">
+		<h2 class="center-align blue-text">Our Services</h2>
+		<div class="row">
+			<div class="col s4 m4 l4 offset-l4 offset-s4 offset-m4" ><hr></div>
+		</div>
+		<div class="row">
+			<div class="col s12 m4 l4">
+				<div class="card hoverable">
+					<div class="card-image">
+						<img src="images/tm.jpg" class="responsive-img">
+
+						<span class="card-title">Travel Management</span>
+					</div>
+					<div class="card-content">
+						<p>Travel management is a specialism, which is based around organising corporate travel, tracking your various travel expenses and devising a comprehensive travel strategy. As a discipline, it is intended to help businesses and their employees to optimise the way they deal with their travel needs. This means making sure everything is handled properly, while minimising any negative impact on things like productivity and financial results.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 m4 l4">
+				<div class="card hoverable">
+					<div class="card-image">
+						<img src="images/bg3.jpg" class="responsive-img">
+						<span class="card-title">Passenger Assistant</span>
+					</div>
+					<div class="card-content">
+						<p>A passenger service assistant is a customer service representative or agent who assists people using transportation services. Most work on the ground at airports for airlines, though you can also find them working at cruise or train lines, handling many of the same duties. These duties include checking in passengers, handling baggage handling, making announcements, and assisting with boarding and security.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 m4 l4">
+				<div class="card hoverable">
+					<div class="card-image">
+						<img src="images/bg2.jpg" class="responsive-img">
+						<span class="card-title">Affordable Trips</span>
+					</div>
+					<div class="card-content">
+						<p>Travel Traders makes booking your Individual Services and Products easy for you. Hotel bookings, transfers, car rental, cruises, show tickets, sightseeing’s, special services, gifts and assistant services all can be booked together or individually according to your needs. We also provide a wide range of tour suggestions and itineraries like self drive programs, roundtrips, Citybreaks, and biking and hiking.All things are available at reasonable price. Services are available all over india.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Gallery -->
+	<sectionn id="gallery">
+		<h2 class="center-align blue-text">Our Gallery</h2>
+		<div class="row">
+			<div class="col s4 m4 l4 offset-l4 offset-s4 offset-m4" ><hr></div>
+		</div>
+		<div class="row">
+			<div class="col s12 m4 l4">
+				<img data-caption="Taj Mahal, Agra" src="images/bg1.jpg" class="responsive-img materialboxed">
+			</div>
+			<div class="col s12 m4 l4">
+				<img data-caption="Taj Mahal: One of the seven wonders in the world" src="images/bg6.jpg" class="responsive-img materialboxed">
+			</div>
+			<div class="col s12 m4 l4">
+				<img data-caption="Rashtapati Bhawan, New Delhi" src="images/bg7.jpg" class="responsive-img materialboxed">
+			</div>
+			<div class="col s12 m4 l4">
+				<img data-caption="Jaipur, Rajasthan" src="images/bg8.jpg" class="responsive-img materialboxed">
+			</div>
+			<div class="col s12 m4 l4">
+				<img data-caption="Travel Architecture" src="images/bg9.jpg" class="responsive-img materialboxed">
+			</div>
+			<div class="col s12 m4 l4">
+				<img data-caption="Hawa Mahal, Rajasthan" src="images/bg10.jpg" class="responsive-img materialboxed">
+			</div>
+			<div class="col s12 m4 l4">
+				<img data-caption="Mountains" src="images/bg11.jpg" class="responsive-img materialboxed">
+			</div>
+			<div class="col s12 m4 l4">
+				<img data-caption="Rajasthan" src="images/bg12.jpg" class="responsive-img materialboxed">
+			</div>
+			<div class="col s12 m4 l4">
+				<img data-caption="Gateway of India, Mumbai" src="images/bg13.jpg" class="responsive-img materialboxed">
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact Form -->
+	<section id="contact">
+		<h2 class="center-align blue-text">Contact Form</h2>
+		<div class="row">
+			<div class="col s4 m4 l4 offset-l4 offset-s4 offset-m4" ><hr></div>
+		</div>
+		<div class="row">
+			<div class="col m6 l6 offset-l3">
+				<div class="row">
+					<form class="col s12" style="text-align: center;">
+						<div class="row">
+							<div class="input-field col s6">
+								<input placeholder="First Name" id="first_name" type="text" class="validate">
+								<label for="first_name">First Name</label>
+							</div>
+							<div class="input-field col s6">
+								<input placeholder="Last Name" id="last_name" type="text" class="validate">
+								<label for="last_name">Last Name</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<input id="mobile" type="text" class="validate" data-length="10">
+								<label for="mobile">Mobile Number</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<input id="email" type="email" class="validate">
+								<label for="email">Email</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<textarea id="textarea1" class="materialize-textarea"></textarea>
+								<label for="textarea1">Comment</label>
+							</div>
+						</div>
+						<a  class="btn waves-effect waves-light" type="submit" name="action" onclick="M.toast({html: 'Form has been submitted',classes: 'rounded'})">Submit</a>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Modal Structure -->
+	<div id="modal1" class="modal">
+		<div class="modal-content">
+			<h5>By clicking submit you will agree to terms and condition.</h5>
+		</div>
+		<div class="modal-footer">
+			<a href="https://newsletter-subscription1.herokuapp.com/" target="_blank" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="page-footer blue lighten">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text">TravelWorld</h5>
+					<p class="grey-text text-lighten-4">Now Travel all over india freely, wherever you want</p>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<h5 class="white-text">Links</h5>
+					<ul>
+						<a class="waves-effect waves-light btn" href="http://www.linkedin.com/in/tarun0023" target="_blank"><i class="material-icons">sms</i></a>
+						<a class="waves-effect waves-light btn" href="http://tarunkmr.me/CV/" target="_blank"><i class="material-icons">public</i></a>
+						<a class="waves-effect waves-light btn" href="https://github.com/Tarunkmr0023" target="_blank"><i class="material-icons">add_circle</i></a>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				2021 &#169 Tarun Kumar
+			</div>
+		</div>
+	</footer>
+
+	<script>
+		$(document).ready(function(){
+			$('.sidenav').sidenav();
+			$('.materialboxed').materialbox();
+			$('input#mobile').characterCounter();
+			$('.modal').modal();
+			$('.tooltipped').tooltip();
+		});
+
+		$('.carousel.carousel-slider').carousel({
+			fullWidth: true,
+			indicators: true
+		});
+	</script>
+</body>
+</html>

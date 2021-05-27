@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>My Website</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<!-- Jquery CDN Link -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+	<style>
+		*{
+			font-family: 'Josefin Sans', sans-serif;
+		}
+		section{
+			width: 90%;
+			margin: auto;
+			margin-top: 120px;
+		}
+	</style>
+</head>
+<body>
+	<nav class="blue lighten">
+		<div class="nav-wrapper container">
+			<a href="#!" class="brand-logo">TravelWorld</a>
+			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#gallery" class="scrollspy"></a>Gallery</li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<ul class="sidenav" id="mobile-demo">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="#">Services</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+	<section>
+		<h2 class="center-align blue-text">About US</h2>
+		<div class="row">
+			<div class="col s4 m4 l4 offset-l4 offset-s4 offset-m4" ><hr></div>
+		</div>
+
+		<div class="row">
+			<div class="col s12 m6 l6">
+				<img src="images/bg1.jpg" class="responsive-img hoverable">
+			</div>
+			<div class="col s12 m4 l6">
+				<h4>Who are We?</h4>
+				<p>We are leading Tour and Travel agent in Delhi, providing service to people from more than 30 years. We have diffrent <b>Tour Packages</b> in very reasonable price. We have all types of Tour Packages ranging from low class to high class. We have all types of packages for all over the India. We have tour package of all places all over india. Our service is our priority.</p>
+				<h4>"The world is a book and those who do not travel read only one page"</h4><h4>"Travel makes one modest. You see what a tiny place you occupy in the world"</h4></p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Education Details -->
+	<section>
+		<h2 class="center-align blue-text">Some Travel Packages</h2>
+		<div class="row">
+			<div class="col s4 m4 l4 offset-l4 offset-s4 offset-m4" ><hr></div>
+		</div>
+		<ul class="collapsible">
+			<li>
+				<div class="collapsible-header"><i class="material-icons">hiking</i>Delhi Tourism Package</div>
+				<div class="collapsible-body"><span>2 Nights/ 3 days @12000 Rs. Only</span></div>
+			</li>
+			<li>
+				<div class="collapsible-header"><i class="material-icons">travel_explore</i>Kerala Tourism Package</div>
+				<div class="collapsible-body"><span>2 Nights/ 3 days @18000 Rs. Only</span></div>
+			</li>
+			<li>
+				<div class="collapsible-header"><i class="material-icons">hiking</i>Goa Tourism Package</div>
+				<div class="collapsible-body"><span>2 Nights/ 3 days @15000 Rs. Only</span></div>
+			</li>
+			<li>
+				<div class="collapsible-header"><i class="material-icons">travel_explore</i>Himachal Pradesh Tourism Package</div>
+				<div class="collapsible-body"><span>2 Nights/ 3 days @8000 Rs. Only</span></div>
+			</li>
+		</ul>
+	</section>
+<!-- Footer -->
+	<footer class="page-footer blue lighten">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text">TravelWorld</h5>
+					<p class="grey-text text-lighten-4">Now Travel all over india freely, wherever you want</p>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<h5 class="white-text">Links</h5>
+					<ul>
+						<a class="waves-effect waves-light btn " href="http://www.linkedin.com/in/tarun0023" target="_blank"><i class="material-icons">sms</i></a>
+						<a class="waves-effect waves-light btn" href="http://tarunkmr.me/CV/" target="_blank"><i class="material-icons">public</i></a>
+						<a class="waves-effect waves-light btn" href="https://github.com/Tarunkmr0023" target="_blank"><i class="material-icons">add_circle</i></a>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				2021 &#169 Tarun Kumar
+			</div>
+		</div>
+	</footer>
+		
+	<script>
+		$(document).ready(function(){
+			$('.sidenav').sidenav();
+			$('.collapsible').collapsible();
+		});
+	</script>
+</body>
+</html>
